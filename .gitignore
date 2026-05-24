@@ -1,0 +1,29 @@
+# Generated output files
+output/
+
+# PDF collections (large binary files)
+pdfs/
+pdfs_final/
+pdfs_with_ocr/
+
+# Keyword extraction results
+keywords_results/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Embeddings and similarity matrices (large binary/data files)
+scripts/*.npy
+scripts/*.csv
+scripts/*.png
+scripts/*.html
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+
+.claude/
